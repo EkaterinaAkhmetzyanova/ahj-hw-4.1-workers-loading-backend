@@ -34,7 +34,7 @@ app.use(slow({
 
 app.use(router.routes()).use(router.allowedMethods());
 
-router.get('/messages/unread', async (ctx) => {
+router.get('/articles', async (ctx) => {
   const articles = [];
   
   for (let i = 0; i < 4; i++) {
