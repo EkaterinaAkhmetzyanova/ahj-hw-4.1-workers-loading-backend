@@ -1,0 +1,32 @@
+{
+  "name": "ahj-hw-4.1-workers-loading-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "14.17.3"
+  },
+  "repository": "git+https://github.com/EkaterinaAkhmetzyanova/ahj-hw-4.1-workers-loading-backend.git",
+  "author": "Ekaterina Akhmetzyanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EkaterinaAkhmetzyanova/ahj-hw-4.1-workers-loading-backend/issues"
+  },
+  "homepage": "https://github.com/EkaterinaAkhmetzyanova/ahj-hw-4.1-workers-loading-backend#readme",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "forever": "^4.0.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa-slow": "^2.1.0",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2",
+    "yarn": "^1.22.11"
+  }
+}
